@@ -1,1 +1,215 @@
-a
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aiko & Ale 🖤</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Georgia, serif;
+}
+
+body{
+background:#050505;
+color:white;
+overflow-x:hidden;
+background-image:
+linear-gradient(rgba(0,0,0,.85),rgba(0,0,0,.95)),
+url('https://images.unsplash.com/photo-1513151233558-d860c5398176');
+background-size:cover;
+background-attachment:fixed;
+}
+
+header{
+text-align:center;
+padding:80px 20px;
+}
+
+h1{
+font-size:4rem;
+color:#b30000;
+text-shadow:0 0 15px red;
+}
+
+.subtitulo{
+font-size:1.3rem;
+color:#d8d8d8;
+margin-top:10px;
+}
+
+.mensaje{
+max-width:800px;
+margin:40px auto;
+padding:30px;
+border:2px solid #7a0000;
+background:rgba(20,20,20,.85);
+border-radius:15px;
+text-align:center;
+font-size:1.4rem;
+line-height:2;
+box-shadow:0 0 25px rgba(255,0,0,.25);
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px;
+max-width:1200px;
+margin:auto;
+}
+
+.galeria img{
+width:100%;
+height:400px;
+object-fit:cover;
+border-radius:15px;
+border:2px solid #700;
+transition:.4s;
+}
+
+.galeria img:hover{
+transform:scale(1.03);
+box-shadow:0 0 20px crimson;
+}
+
+.historia{
+max-width:900px;
+margin:50px auto;
+padding:30px;
+text-align:center;
+}
+
+.historia h2{
+font-size:2.5rem;
+color:#b30000;
+margin-bottom:20px;
+}
+
+.historia p{
+font-size:1.2rem;
+line-height:1.8;
+}
+
+.cancion{
+text-align:center;
+margin:60px 20px;
+}
+
+.cancion h2{
+color:#b30000;
+margin-bottom:20px;
+}
+
+.boton{
+display:inline-block;
+padding:15px 30px;
+background:#8b0000;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.boton:hover{
+background:red;
+}
+
+footer{
+text-align:center;
+padding:50px 20px;
+font-size:1.2rem;
+color:#ccc;
+}
+
+.corazon{
+font-size:2rem;
+color:red;
+animation:latir 1.5s infinite;
+}
+
+@keyframes latir{
+50%{
+transform:scale(1.3);
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Aiko & Ale 🖤</h1>
+<p class="subtitulo">
+Nuestro amor es más fuerte que la distancia.
+</p>
+</header>
+
+<section class="mensaje">
+<p>
+"Querido amor mío,<br><br>
+
+Nos veremos pronto bebé.<br>
+Tenga paciencia.<br><br>
+
+Te amo con toda mi alma. 🖤🦇"
+</p>
+</section>
+
+<section class="galeria">
+<img src="foto1.jpg">
+<img src="foto2.jpg">
+<img src="foto3.jpg">
+<img src="foto4.jpg">
+</section>
+
+<section class="historia">
+<h2>Nuestra Historia</h2>
+
+<p>
+No fue coincidencia, fue destino.
+Entre miradas, risas y momentos compartidos,
+encontré en ti a la persona que ilumina incluso mis días más oscuros.
+
+Eres mi paz en medio del caos,
+mi refugio y mi canción favorita.
+
+Cada día contigo vale la pena,
+y aunque ahora exista distancia,
+mi corazón sigue contigo en cada instante.
+</p>
+
+</section>
+
+<section class="cancion">
+<h2>Nuestra Canción</h2>
+
+<p style="margin-bottom:20px;">
+You're All I Need — Mötley Crüe
+</p>
+
+<a class="boton"
+href="https://www.youtube.com/results?search_query=motley+crue+youre+all+i+need"
+target="_blank">
+Escuchar nuestra canción 🎵
+</a>
+</section>
+
+<footer>
+
+<div class="corazon">🖤</div>
+
+<p>
+Para siempre,
+Aiko & Ale
+</p>
+
+</footer>
+
+</body>
+</html>
